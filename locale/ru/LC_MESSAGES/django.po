@@ -26,7 +26,7 @@ msgid ""
 "You have no two factor authentication set up. Please set it up in <a "
 "href=\"#/settings\">settings</a>."
 msgstr ""
-"У Вас не активирована двух-факторная проверки подлинности. Пожалуйста, "
+"У Вас не активирована двухфакторная проверки подлинности. Пожалуйста, "
 "активируйте ее в <a href=\"#/settings\">settings</a>."
 
 #: templates/wallet/wallet.html:57
@@ -48,7 +48,7 @@ msgstr "Заметка"
 #: templates/wallet/wallet.html:64
 #, fuzzy
 msgid "Hide this message by clicking here."
-msgstr "Пожалуйста, проверьте сейчас нажав здесь."
+msgstr "Нажмите здесь, чтобы скрыть это сообщение."
 
 #: templates/wallet/nav.html:4 templates/wallet/nav.html:11
 #: templates/wallet/partials/wallet_settings.html:113
@@ -123,13 +123,13 @@ msgstr "страна не указана"
 
 #: templates/wallet/partials/wallet_transactions_table.html:1
 msgid "New transactions! Sort by descending date to see them."
-msgstr "Новые транзакции! Отсортируйте по дате по убыванию чтобы, увидеть их."
+msgstr "Новые транзакции! Отсортируйте по убыванию даты, чтобы их увидеть."
 
 #: templates/wallet/partials/wallet_transactions_table.html:2
 msgid "Newly confirmed transactions! Sort by descending date to see them."
 msgstr ""
-"Новые подтвержденные транзакции! Отсортируйте по дате по убыванию, чтобы "
-"увидеть их."
+"Новые подтвержденные транзакции! Отсортируйте по убыванию даты, чтобы "
+"их увидеть."
 
 #: templates/wallet/partials/wallet_transactions_table.html:8
 msgid "Date"
@@ -237,7 +237,7 @@ msgstr ""
 #: templates/wallet/partials/signup_0_warning.html:9
 #: templates/wallet/partials/signuplogin/header_wallet.html:7
 msgid "Locally installed apps are generally more secure than websites"
-msgstr "Локально установленные приложения более безопасны веб-сайтов"
+msgstr "Локально установленные приложения более безопасны, чем веб-сайты"
 
 #: templates/wallet/partials/signup_0_warning.html:12
 #: templates/wallet/partials/signuplogin/base.html:69
@@ -245,8 +245,8 @@ msgid ""
 "These apps are designed to protect you and your coins even in case the "
 "service is compromised and should be preferred over using the browser."
 msgstr ""
-"Эти приложения предназначены для защиты Ваших средств даже в случае если "
-"наш сервис скомпрометирован, предпочитайте пользоваться ими нежели "
+"Эти приложения предназначены для защиты Ваших средств даже в случае, если "
+"наш сервис скомпрометирован. Предпочитайте пользоваться ими нежели "
 "браузером."
 
 #: templates/wallet/partials/signup_0_warning.html:13
@@ -254,7 +254,7 @@ msgid ""
 "Web access is intended to be used for watch only mode or if you have no "
 "alternative, like on the Windows Mobile platform."
 msgstr ""
-"Веб-доступ предназначен только для режима только чтения или если у Вас "
+"Веб-доступ предназначен только для режима чтения или если у Вас "
 "нет другой альтернативы, как на платформе Windows Mobile."
 
 #: templates/wallet/partials/signup_0_warning.html:16
@@ -275,8 +275,8 @@ msgid ""
 "Are you sure you want to permanently remove your wallet and all "
 "associated data from our servers?"
 msgstr ""
-"Вы уверенны что хотитте безвозвратно удалить ваш кошелёк и все данные, "
-"асоциированые с ним, с наших серверов?"
+"Вы уверены, что хотите безвозвратно удалить ваш кошелёк и все данные, "
+"ассоциированные с ним, с наших серверов?"
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:5
 msgid "Remove my account"
@@ -378,7 +378,7 @@ msgstr "Пожалуйста, введите логин и пароль."
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:8
 msgid "Enter your username"
-msgstr "Введите пользовательское имя"
+msgstr "Введите имя пользователя"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:14
 msgid "Enter your password"
@@ -394,7 +394,7 @@ msgstr "OK"
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:2
 msgid "Confirm changing the pricing source"
-msgstr "подтвердить изменение источника курса"
+msgstr "Подтвердить изменение источника курса"
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:5
 msgid ""
@@ -849,7 +849,7 @@ msgstr ""
 #: templates/wallet/partials/signup_qr_modal.html:2
 #: templates/wallet/partials/wallet_modal_mnemonic.html:2
 msgid "The QR code containing the passphrase to access your wallet is:"
-msgstr "QR содержащий пароль для доступа к вашему кошильку:"
+msgstr "QR содержащий пароль для доступа к вашему кошельку:"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:3
 #, fuzzy
@@ -1023,11 +1023,11 @@ msgstr "Не идите на компромисс в вопросах безоп
 
 #: templates/wallet/partials/signup_2_2factor.html:14
 msgid "Set up two factor authentication"
-msgstr "Настроить Двух-факторнаую аутентификацию"
+msgstr "Настроить двухфакторнаую аутентификацию"
 
 #: templates/wallet/partials/signup_2_2factor.html:16
 msgid "Please wait while we log you into your new wallet..."
-msgstr "Пожалуйста попдождите пока идет вход в ваш новый кошелёк..."
+msgstr "Пожалуйста подождите пока идет вход в ваш новый кошелёк..."
 
 #: templates/wallet/partials/signup_2_2factor.html:18
 #, fuzzy
@@ -1036,7 +1036,7 @@ msgid ""
 "will make your wallet much more secure and allows use of additional "
 "features such as Spending Limits."
 msgstr ""
-"Мы рекомендуем установить несколько методов двух факторной "
+"Мы рекомендуем установить несколько методов двухфакторной "
 "аутентификации, это сделает ваш кошелёк более безопасным и позволит "
 "использовать некоторые дополнительные опции, например Лимит Трат"
 
@@ -1046,7 +1046,7 @@ msgid ""
 "your two factor become unavailable."
 msgstr ""
 "Несколько методов позволит иметь резервный доступ к вашим средствам в "
-"случаенедоступности одного с методов двух факторной аутентификации"
+"случае недоступности одного с методов двухфакторной аутентификации"
 
 #: templates/wallet/partials/signup_2_2factor.html:20
 msgid ""
@@ -1154,11 +1154,11 @@ msgstr "кода проверки подлинности через Email вкл
 #: templates/wallet/partials/wallet_2fa.html:74
 #: templates/wallet/partials/wallet_settings.html:297
 msgid "Your email address"
-msgstr "Ваш емаил адрес"
+msgstr "Ваш email адрес"
 
 #: templates/wallet/partials/wallet_2fa.html:80
 msgid "Please enter your email"
-msgstr "Пожалуйста введите ваш емаил"
+msgstr "Пожалуйста введите ваш email"
 
 #: templates/wallet/partials/wallet_2fa.html:91
 msgid ""
@@ -1173,7 +1173,7 @@ msgstr ""
 #: templates/wallet/partials/wallet_2fa.html:96
 #: templates/wallet/partials/wallet_settings.html:307
 msgid "Email code"
-msgstr "Послать код в по емаилу"
+msgstr "Послать код в по email"
 
 #: templates/wallet/partials/wallet_2fa.html:114
 msgid "SMS two factor authentication is enabled."
@@ -1209,7 +1209,7 @@ msgstr "Код SMS"
 
 #: templates/wallet/partials/wallet_2fa.html:156
 msgid "Phone call two factor authentication is enabled."
-msgstr "Двух-факторная аутентификация через телефонный звонок включена."
+msgstr "Двухфакторная аутентификация через телефонный звонок включена."
 
 #: templates/wallet/partials/wallet_2fa.html:175
 msgid ""
@@ -1232,7 +1232,7 @@ msgstr "С аккаунта"
 #: templates/wallet/partials/wallet_send.html:29
 #, fuzzy
 msgid "Enter recipient's address "
-msgstr "введите адрес получателя"
+msgstr "Введите адрес получателя"
 
 #: templates/wallet/partials/wallet_send.html:35
 msgid "Paste"
@@ -1325,7 +1325,7 @@ msgstr "Быстрый и безопасный доступ к Кошельку"
 #: templates/wallet/partials/signup_3_pin.html:14
 msgid "To have a secure but quick access from this device set your PIN"
 msgstr ""
-"Для того чтобы иметь безопасный но быстрый доступ с этого устройства, "
+"Для того чтобы иметь безопасный и быстрый доступ с этого устройства, "
 "установите PIN-код"
 
 #: templates/wallet/partials/signup_3_pin.html:18
@@ -1545,7 +1545,7 @@ msgid ""
 "This can disable two factor authentication if you have no other 2FA "
 "method set up in that account."
 msgstr ""
-"Это может отключить двух факторную проверку подленности, если вы не "
+"Это может отключить двухфакторную проверку подлинности, если вы не "
 "используете других методов на том аккаунте."
 
 #: templates/wallet/partials/wallet_modal_trezor_confirm_button.html:9
@@ -1805,7 +1805,7 @@ msgid ""
 "make without using two factor authentication"
 msgstr ""
 "Вы можете указать ограничение на сумму транзакций в BTC или валюте, "
-"которые можно проводить без двухфакторной проверки подленности"
+"которые можно проводить без двухфакторной проверки подлинности"
 
 #: templates/wallet/partials/wallet_settings.html:227
 msgid "Change limits"
@@ -1849,7 +1849,7 @@ msgid ""
 "authentication, and nLockTime transactions."
 msgstr ""
 "Установить адрес электронной почты, для уведомлений о транзакции, "
-"двухфакторной проверки подленности, и nLockTime транзакций."
+"двухфакторной проверки подлинности, и nLockTime транзакций."
 
 #: templates/wallet/partials/wallet_settings.html:294
 msgid "Change email address"
@@ -1983,7 +1983,7 @@ msgstr "Двухфакторная проверка подлинности"
 #: templates/wallet/partials/wallet_settings.html:440
 msgid "Set any or all two factor: you can choose which one when needed!"
 msgstr ""
-"Установите двух-фактор выборочно или все: Вы можете выбрать, что Вам "
+"Установите двухфактор выборочно или все: Вы можете выбрать, что Вам "
 "необходимо!"
 
 #: templates/wallet/partials/wallet_settings.html:440
